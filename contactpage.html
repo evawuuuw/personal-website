@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Contact Us Page</title>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="style5.css">    
+</head>
+
+
+
+<body>
+    <div class="contact-header">
+        <div class="logo">
+            <img src="EW -Eva Wu-.svg" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="aboutpage.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="#product">Personal</a></li>
+                <li><a href="contactpage.html" class="navactive">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="socialmediacontainer">
+            <a href="https://www.instagram.com/eva_wuuuw?igsh=MTdleG50YWhha3B0aw%3D%3D&utm_source=qr" target="_blank"><img  class="instagram" src="icons8-instagram.svg"></a>
+            <a href="#"><img class="facebook"src="icons8-facebook.svg"></a>
+            <a href="#"><img class="vsco" src="icons8-vsco.svg"></a>
+        </div>
+    </div>
+    <div class="contact">
+        <h1 class="contact-title">Contact Me!</h1>
+        <form class="contact-container" action="/mailinglist.php" method="post">
+            <fieldset>
+                <ul>
+                    <li class="name"><label for="firstlast">Full Name:</label><br>
+                        <input type="text" placeholder="Your name" name="fullname" id="firstlast"></li>
+                    <li class="email"><label for="email">Your Email: </label><br>
+                        <input type="text" placeholder="Your Email" name="email" id="email"></li>
+                    <li class="comment"><label for="comment">Message:</label><br>
+                            <textarea placeholder="Your message " name="comment" id="comment"></textarea></li>
+                </ul>
+                
+                <input class="submit" type="submit" value="Submit">
+                
+            </fieldset>
+        </form>
+        <!--after submit, change the text that shown on this page as Thank you for contacting me! I will 
+        get back to you soon!-->
+    </div>
+</body>
+</html>
